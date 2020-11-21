@@ -1,0 +1,173 @@
+body{
+    /* background-color: #010e1e!important; */
+    /* color: white; */
+    margin: 0;
+    padding: 0;
+    /* margin-top: 187px; */
+}
+body, html {
+    height: 100%;
+}
+
+
+.navbar{
+    padding: 15px;
+    background-color: transparent;
+}
+.navbar .navbar-brand{
+    font-size: 24px;
+    font-weight: bold;
+}
+.mydiv{
+    background: rgb(21,55,92);
+background: linear-gradient(90deg, rgba(21,55,92,1) 0%, rgba(14,60,110,1) 23%, rgba(3,102,208,1) 88%, rgba(247,181,0,1) 99%);
+
+}
+.nav-item{
+    padding-left: .7rem!important;
+    padding-right: .7rem!important;
+    
+}
+.nav-link{
+    color: white!important;
+    font-weight:600;
+    
+}
+.nav-link a{
+    line-height: 30px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #F7B500;
+
+   
+}
+.navbar .nav-item .active{
+    border-bottom: 2px solid #F7B500;
+
+}
+.hello{
+    background-color: #F7B500;
+    padding: 7px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+
+}
+.list-group li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+#ban{
+    background-image: url("../image/online-programming-course-hero-section-bg-1.svg");
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white!important;
+}
+.sk{
+    border: 1px solid #0366d0;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+#about{
+    padding-top: 7rem;
+}
+#about .btn{
+    background-color:  #F7B500!important;
+    color: white;
+}
+#skill{
+    padding-top: 7rem;
+}
+.skill-name::after
+{
+    content: "";
+   clear: both;
+   display: table;
+
+}
+ul.filter {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+#portfolio{
+    padding-top: 7rem;
+}
+#portfolio ul.filter li {
+    display: inline;
+    padding: 20px 20px;
+}
+#portfolio ul.filter li.active {
+    background-color: #F7B500;
+    color: white;
+}
+#client{
+    padding-top: 7rem;
+}
+
+#client .client-des{
+    padding: 30px;
+}
+#client .client-des img{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border: 5px solid #F7B500;
+    border-radius: 50%;
+}
+#client .client-des .client-comment{
+    font-size: 1rem;
+}
+#client .client-des .client-comment p{
+    opacity: .9;
+}
+section#contact {
+    background-color: #0E3C6E;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+section#contact h1 {
+    padding-top: 32px;
+    padding-bottom: 41px;
+}
+#education{
+    background-color: #0366D0;
+    
+}
+#education .card.mb-5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#contact{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-image: url("../image/bg-dots.png");
+}
+#contact button{
+    background-color: #F7B500;
+    color: white;
+}
+#footer{
+    background-image: url("../image/online-programming-course-hero-section-bg-1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 5rem;
+    padding: 20px;
+    /* font-size: 13px!important; */
+}
+#footer h1{
+    font-size: 12px!important;
+}
