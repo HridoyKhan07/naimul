@@ -1,5 +1,8 @@
 @media only screen and (max-width : 576px){
 
+    body, html {
+        height: auto;
+    }
     #portfolio ul.filter li{
         display: block;
     }
@@ -10,6 +13,19 @@
         font-size: 34px;
 
     }
+    #ban{
+        background-image: url("../image/online-programming-course-hero-section-bg-1.svg");
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        color: white!important;
+        /* overflow: scroll; */
+    }
+    /* img.img-fluid.text-center.myimg {
+        width: auto;
+        height: 301px;
+    } */
 }
 @media only screen and (max-width : 768px){
     
@@ -17,4 +33,32 @@
         text-align: center;
         padding-top: 120px;
     }
+    @media only screen and (orientation: landscape) {
+        body, html {
+            height: auto;
+        }
+        #ban{
+            background-image: url("../image/online-programming-course-hero-section-bg-1.svg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            color: white!important;
+            /* overflow: scroll; */
+        }
+      }  
 }
+ /*  @media only screen and (orientation: landscape) {
+    body, html {
+        height: auto;
+    }
+    #ban{
+        background-image: url("../image/online-programming-course-hero-section-bg-1.svg");
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        color: white!important;
+        /* overflow: scroll; */
+    }
+  }   */
